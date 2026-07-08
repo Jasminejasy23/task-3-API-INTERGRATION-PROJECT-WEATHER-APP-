@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, sans-serif;
+
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    margin: 0;
+}
+
+.container{
+    background: rgba(255,255,255,0.85);
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    width: 320px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+
+    backdrop-filter: blur(5px);
+}
+
+.container:hover{
+    transform: scale(1.03);
+
+    transition: 0.3s;
+}
+
+input{
+    width: 80%;
+
+    padding: 10px;
+
+    margin: 10px 0;
+
+    border-radius: 8px;
+
+    border: 1px solid gray;
+}
+
+button{
+    padding: 10px 20px;
+
+    margin: 5px;
+
+    border: none;
+
+    background: #007BFF;
+
+    color: white;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background: #0056b3;
+}
+
+.weather-info{
+    margin-top: 20px;
+}
+
+.weather-info h2{
+    margin-bottom: 10px;
+}
+
+.weather-info p{
+    margin: 5px 0;
+
+    font-size: 18px;
+}
+
+#weather-icon{
+    margin: 10px 0;
+}
+
+.dark-mode{
+    background: #121212;
+}
+
+.dark-mode .container{
+    background: rgba(30,30,30,0.9);
+
+    color: white;
+}

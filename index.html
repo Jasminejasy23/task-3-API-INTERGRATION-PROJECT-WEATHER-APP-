@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Weather Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Real-Time Weather Dashboard</h1>
+
+        <input type="text" id="city-input" placeholder="Enter city">
+
+        <button id="mode-btn">🌙 Dark Mode</button>
+
+        <button id="search-btn">Search</button>
+
+        <div class="weather-info">
+
+            <h2 id="city">--</h2>
+
+            <p id="date"></p>
+
+            <img id="weather-icon"
+            src="https://cdn-icons-png.flaticon.com/512/869/869869.png"
+            width="80">
+
+            <p id="temperature">Temperature: --°C</p>
+
+            <p id="humidity">Humidity: --%</p>
+
+            <p id="wind">Wind Speed: -- km/h</p>
+
+            <p id="description">Weather: --</p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
